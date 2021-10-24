@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "csharpbasic", "csharpbasic\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "tesst1", "tesst1\tesst1.csproj", "{9B11DB6B-2B79-4002-8A5C-C16F4F64E2E9}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Kteam", "Kteam", "{75E2AA5A-26A5-4EED-8B81-A51C8A3E48C5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ex1", "Ex1\Ex1.csproj", "{D5829232-D76B-4E54-B694-4C0AB51D5A98}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,9 +25,16 @@ Global
 		{9B11DB6B-2B79-4002-8A5C-C16F4F64E2E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9B11DB6B-2B79-4002-8A5C-C16F4F64E2E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9B11DB6B-2B79-4002-8A5C-C16F4F64E2E9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D5829232-D76B-4E54-B694-4C0AB51D5A98}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D5829232-D76B-4E54-B694-4C0AB51D5A98}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D5829232-D76B-4E54-B694-4C0AB51D5A98}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D5829232-D76B-4E54-B694-4C0AB51D5A98}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D5829232-D76B-4E54-B694-4C0AB51D5A98} = {75E2AA5A-26A5-4EED-8B81-A51C8A3E48C5}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {FA5E0656-1867-41D0-819D-4412956D9D45}
