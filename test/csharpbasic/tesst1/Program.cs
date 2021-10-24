@@ -1,12 +1,12 @@
 ﻿using System;
 
-namespace csharpbasic
+namespace tesst1
 {
     class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World222222");
+            Console.WriteLine("Hello Worl333333!");
             Console.ReadLine();
         }
     }
