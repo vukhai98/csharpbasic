@@ -1,13 +1,14 @@
 ﻿using System;
 
-namespace tesst1
+namespace Exercise1
 {
+
     class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello Worl333333!");
-            Console.ReadLine();
+            Console.WriteLine("Kteam");
+            Console.ReadKey();
         }
     }
 }
