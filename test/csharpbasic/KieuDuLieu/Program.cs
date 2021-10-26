@@ -19,7 +19,12 @@ namespace KieuDuLieu
             //float BienFloat = 10.9f;// Gia tri cua bien float phai co hau to F or f .
             //double BienDouble = 10.9; // Gia tri cua bien kieu double khong can hau to.
             //decimal BienDecimal = 10.9m; // Gia tri cua bien kieu decimal phai co hau to m.
-            //                             // Kiểu ký tự và kiểu chuỗi 
+            //                            
+            
+            
+            
+            
+            // Kiểu ký tự và kiểu chuỗi 
 
             //char BienChar = 'K'; // Gia tri cua biến kiểu char năm trong dấu ' ' ( dấu nháy đơn).
             //string BienString = "Kteam"; // Giá trị của biến kiểu chuỗi nằm trong dấu "" ( dấu nháy đôi)
