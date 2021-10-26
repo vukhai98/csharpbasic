@@ -1,0 +1,57 @@
+﻿using System;
+
+namespace EpKieuTrong_Csharp
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            #region Chuyển đổi kiểu ngầm định
+
+            //int k = 10;
+            //long l = k; //Chuyển đổi ngầm định vì kiểu long có miền giá trị lớn hơn kiểu int;
+            //float f = 10.9f;
+            //double d = f; //Tương tự vì kiểu double có miền giá trị lớn hơn float ;
+
+
+
+            #endregion
+
+            #region Chuyển đổi kiểu tường minh
+            int i = 300; //300 có mã nhị phân là 100101100
+
+            byte b = (byte)i; //do kiểu byte có giới hạn đến 255 nên ko chứa được 300 nên ta phải đổi sang kiểu int;
+
+            Console.WriteLine("i = " +i);
+
+            Console.WriteLine(" b = " +b);
+
+            double d= 2 / 3; // kết quả là 0 vì 2 chia 3 đều là số nguyên nên phần dư là 0;
+            double k= (double)2 / 3; // ép kiểu số từ số nguyên sang số thực ;
+            double t = 1.0 * 2 / 3; // Thực hiện nhân 1.0 với mục đích biến 2 số nguyên thàn 2.0 số thực;
+
+            Console.WriteLine("d = {0} \n k= {1} \n t= {2} ", d, k, t);
+
+
+
+
+            Console.ReadKey();
+
+
+
+
+            #endregion
+
+
+
+        }
+    }
+}
+/*
+ * Chuyển đổi ngầm định
+ * Chuyển đổi tường minh
+ * Sử dụng phương thức, lớp hỗ trợ sẵn => Parse(),TryParse(); Convert
+ * Người dùng tự định nghĩa kiểu chuyển đổi 
+ */
+
+
