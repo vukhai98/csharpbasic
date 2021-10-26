@@ -18,29 +18,60 @@ namespace EpKieuTrong_Csharp
             #endregion
 
             #region Chuyển đổi kiểu tường minh
-            int i = 300; //300 có mã nhị phân là 100101100
+            //int i = 300; //300 có mã nhị phân là 100101100
 
-            byte b = (byte)i; //do kiểu byte có giới hạn đến 255 nên ko chứa được 300 nên ta phải đổi sang kiểu int;
+            //byte b = (byte)i; //do kiểu byte có giới hạn đến 255 nên ko chứa được 300 nên ta phải đổi sang kiểu int;
 
-            Console.WriteLine("i = " +i);
+            //Console.WriteLine("i = " +i);
 
-            Console.WriteLine(" b = " +b);
+            //Console.WriteLine(" b = " +b);
 
-            double d= 2 / 3; // kết quả là 0 vì 2 chia 3 đều là số nguyên nên phần dư là 0;
-            double k= (double)2 / 3; // ép kiểu số từ số nguyên sang số thực ;
-            double t = 1.0 * 2 / 3; // Thực hiện nhân 1.0 với mục đích biến 2 số nguyên thàn 2.0 số thực;
+            //double d= 2 / 3; // kết quả là 0 vì 2 chia 3 đều là số nguyên nên phần dư là 0;
+            //double k= (double)2 / 3; // ép kiểu số từ số nguyên sang số thực ;
+            //double t = 1.0 * 2 / 3; // Thực hiện nhân 1.0 với mục đích biến 2 số nguyên thàn 2.0 số thực;
 
-            Console.WriteLine("d = {0} \n k= {1} \n t= {2} ", d, k, t);
-
-
+            //Console.WriteLine("d = {0} \n k= {1} \n t= {2} ", d, k, t);
 
 
-            Console.ReadKey();
+
+
+
+
+            //Console.ReadKey();
 
 
 
 
             #endregion
+
+            #region Parse ()
+            //string s = "10";
+            //int k = int.Parse(s); // Chuyển chuỗi s sang kiểu int và lưu giá trị vào biến k -> Kết quả k=10.
+            //double e = double.Parse("10.9"); // Chuyển chuỗi giá trị hằng "10.9" sang kiểu  int và lưu giá trị vào biến e -> e = 10.9 ;
+
+
+            #endregion
+
+            #region TryParse()
+            //int result; // Biến chứa giá trị kết quả khi ép kiểu thành công
+            //bool isSuccess; // Biến kiểm tra việc ép kiểu có thành công hay không
+            //string data1 = "10", data2 = "Kteam"; // Dữ liệu cần ép kiểu
+
+            //isSuccess = int.TryParse(data1, out result); // Thử ép kiểu Data1 về int nếu thành công thì Result sẽ mang giá trị 
+            //Console.Write(isSuccess == true ? "Success !" : "Failed !");
+            //Console.WriteLine("result =" + result); // In giá trị ra màn hình.
+            //isSuccess = int.TryParse(data2, out result);
+            //Console.Write(isSuccess == true ? "Success !" :" Failed !");
+            //Console.WriteLine("result =" + result);
+            //Console.ReadKey();
+
+            #endregion
+
+            #region Convert
+
+            #endregion
+
+
 
 
 
