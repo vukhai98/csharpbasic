@@ -6,6 +6,11 @@ namespace EpKieuTrong_Csharp
     {
         static void Main(string[] args)
         {
+            //TryParseExact
+            //https://stackoverflow.com/questions/11999912/datetime-tryparseexact-rejecting-valid-formats
+            //https://www.c-sharpcorner.com/blogs/enforcing-date-pattern-with-datetimetryparseexact-method
+
+
             #region Chuyển đổi kiểu ngầm định
 
             //int k = 10;
