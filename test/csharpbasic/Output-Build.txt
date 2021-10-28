@@ -1,4 +1,4 @@
 ﻿Build started...
-1>------ Build started: Project: Switchcase, Configuration: Debug Any CPU ------
-1>Switchcase -> D:\code\basic\test\csharpbasic\Switchcase\bin\Debug\netcoreapp3.1\Switchcase.dll
+1>------ Build started: Project: Goto, Configuration: Debug Any CPU ------
+1>Goto -> D:\code\basic\test\csharpbasic\Goto\bin\Debug\netcoreapp3.1\Goto.dll
 ========== Build: 1 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========

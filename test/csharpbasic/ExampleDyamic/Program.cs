@@ -20,6 +20,8 @@ namespace ExampleDyamic
 
             Console.WriteLine(" Mission of " + dynamicname + " is " + mission);
             Console.ReadKey();
+            
+
 
 
         }
