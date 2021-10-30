@@ -67,7 +67,7 @@ namespace LoopFor
                      if (i % (n - 1)==0 || ((i % (n  - 1) !=0) && (j % (m - 1)==0)))
                     {
                         Console.ForegroundColor = ConsoleColor.Red;
-                        Console.Write(drawChar); // lúc này vẽ char *
+                        Console.Write(drawChar); // lúc này vẽ char * 
                         
                     } 
                      else

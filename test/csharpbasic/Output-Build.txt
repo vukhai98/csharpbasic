@@ -1,4 +1,4 @@
 ﻿Build started...
-1>------ Build started: Project: LoopFor, Configuration: Debug Any CPU ------
-1>LoopFor -> D:\code\basic\test\csharpbasic\LoopFor\bin\Debug\netcoreapp3.1\LoopFor.dll
+1>------ Build started: Project: Loopdowhile, Configuration: Debug Any CPU ------
+1>Loopdowhile -> D:\code\basic\test\csharpbasic\Loopdowhile\bin\Debug\netcoreapp3.1\Loopdowhile.dll
 ========== Build: 1 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========
