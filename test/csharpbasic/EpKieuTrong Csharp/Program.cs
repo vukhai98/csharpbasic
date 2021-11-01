@@ -69,7 +69,33 @@ namespace EpKieuTrong_Csharp
             //Console.Write(isSuccess == true ? "Success !" :" Failed !");
             //Console.WriteLine("result =" + result);
             //Console.ReadKey();
+           
+            int rows,colums;
+            
+            bool flag1,flag2;
+            while (flag1 = false)
+            {
+                string a = Console.ReadLine();
+                bool isSuccess = int.TryParse(a, out rows);
+                if (isSuccess)
+                {
+                    flag1 = true;
+                }
+                else
+                {
+                    Console.WriteLine("ban nhap lại");
+                }
+            }
 
+            while (flag2 = false)
+            {
+                string a = Console.ReadLine();
+                bool isSuccess = int.TryParse(a, out colums);
+                if (isSuccess)
+                {
+                    flag2 = true;
+                }
+            }
             #endregion
 
             #region Convert
