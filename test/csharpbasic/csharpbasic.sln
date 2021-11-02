@@ -77,9 +77,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OneDimansionalArray", "OneD
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TwoDimensionalArray", "TowDimensionalArray\TwoDimensionalArray.csproj", "{3D2ADED1-1447-4AAB-8599-4C6AE577AF6F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThreeDimensionalArray", "ThreeDimensionalArray\ThreeDimensionalArray.csproj", "{A8B8C177-B34A-4E0E-845D-B59A52B379B7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ThreeDimensionalArray", "ThreeDimensionalArray\ThreeDimensionalArray.csproj", "{A8B8C177-B34A-4E0E-845D-B59A52B379B7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArrayJagged", "ArrayJagged\ArrayJagged.csproj", "{FA3B02ED-5787-42CD-9098-D78741CDBF85}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ArrayJagged", "ArrayJagged\ArrayJagged.csproj", "{FA3B02ED-5787-42CD-9098-D78741CDBF85}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoopForeach", "LoopForeach\LoopForeach.csproj", "{6912E59A-8726-4F56-B87E-4FFAD1AC8888}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -239,6 +241,10 @@ Global
 		{FA3B02ED-5787-42CD-9098-D78741CDBF85}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FA3B02ED-5787-42CD-9098-D78741CDBF85}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FA3B02ED-5787-42CD-9098-D78741CDBF85}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6912E59A-8726-4F56-B87E-4FFAD1AC8888}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6912E59A-8726-4F56-B87E-4FFAD1AC8888}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6912E59A-8726-4F56-B87E-4FFAD1AC8888}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6912E59A-8726-4F56-B87E-4FFAD1AC8888}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -280,6 +286,7 @@ Global
 		{3D2ADED1-1447-4AAB-8599-4C6AE577AF6F} = {75E2AA5A-26A5-4EED-8B81-A51C8A3E48C5}
 		{A8B8C177-B34A-4E0E-845D-B59A52B379B7} = {75E2AA5A-26A5-4EED-8B81-A51C8A3E48C5}
 		{FA3B02ED-5787-42CD-9098-D78741CDBF85} = {75E2AA5A-26A5-4EED-8B81-A51C8A3E48C5}
+		{6912E59A-8726-4F56-B87E-4FFAD1AC8888} = {75E2AA5A-26A5-4EED-8B81-A51C8A3E48C5}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {FA5E0656-1867-41D0-819D-4412956D9D45}
