@@ -15,7 +15,7 @@ namespace ClassString
             // thực hiện tìm và thay thế 2 khoảng trắng or nhiều hơn thành 1 khoảng trắng 
             while (fullName.IndexOf("  ")  != -1)
             {
-                fullName = fullName.Replace(" ", " ");
+                fullName = fullName.Replace("  ", " ");
             }
             /*
              * Cắt chuỗi họ tên ra thành các mảng từ.
@@ -26,7 +26,7 @@ namespace ClassString
              * cuối cùng là lưu trữ và chuẩn hóa vào biến result
              */
 
-            string[] subName = fullName.Split(' '); 
+            string[] subName = fullName.Split(' ');
 
             for (int i = 0; i < subName.Length; i++)
             {
